@@ -49,6 +49,7 @@ body {
   background: #0f0;
   box-shadow: 5px -8px 0 #0f0, 5px 8px 0 #0f0;
   transition: width 0.5s, left 0.5s, height 0.5s, box-shadow 0.5s;
+  transition-delay: 1s, 0.5s, 0s, 0s;
 }
 .container a:hover::before {
   width: 60%;
