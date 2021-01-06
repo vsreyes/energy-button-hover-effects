@@ -38,3 +38,14 @@ body {
 .container a:nth-child(2) {
   filter: hue-rotate(80deg);
 }
+.container a::before {
+  content: '';
+  position: absolute;
+  left: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 2px;
+  background: #0f0;
+  box-shadow: 5px -8px 0 #0f0, 5px -8px 0 #0f0;
+}
