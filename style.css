@@ -47,5 +47,12 @@ body {
   width: 20px;
   height: 2px;
   background: #0f0;
-  box-shadow: 5px -8px 0 #0f0, 5px -8px 0 #0f0;
+  box-shadow: 5px -8px 0 #0f0, 5px 8px 0 #0f0;
+  transition: width 0.5s, left 0.5s, height 0.5s, box-shadow 0.5s;
+}
+.container a:hover::before {
+  width: 60%;
+  height: 100%;
+  left: -2px;
+  box-shadow: 5px 0 0 #0f0, 5px 0 0 #0f0;
 }
